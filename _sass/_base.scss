@@ -136,9 +136,11 @@ figcaption {
 }
 
 .site-credits {
+  color: $muted-text-color;
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
+  font-size: 1rem;
 }
 
 .skip-navigation {

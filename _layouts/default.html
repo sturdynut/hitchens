@@ -38,6 +38,8 @@
 
     {% include menu.html %}
 
+    {% include legal.html %}
+
     {% unless site.hide_credits %}
       <aside class="site-credits">
         <p>
@@ -45,8 +47,6 @@
         </p>
       </aside>
     {% endunless %}
-
-    {% include legal.html %}
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {% include google-analytics.html %}
